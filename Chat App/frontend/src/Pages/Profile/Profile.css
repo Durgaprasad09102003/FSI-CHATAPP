@@ -1,0 +1,60 @@
+.Profile-Login-menu {
+    width: 360px;
+    height: 560px;
+    background: url("../../assets/Media/chatBGTheme.jpg");
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: screen;
+    filter:opacity(85%);
+    border-radius: 25px 25px 0 0;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    gap: 18px;
+}
+
+.Profile-Login-menu  label img{
+    width: 125px; 
+    height: 125px; 
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.Profile-Login-menu input, .Profile-Login-menu textarea {
+    width: 90%;
+    height: 38px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    padding: 12px;
+}
+
+.Profile-Login-menu textarea {
+    max-width: 90%;
+    min-width: 90%;
+    min-height: 95px;
+    overflow: scroll;
+}
+
+.Profile-Login-menu textarea::-webkit-scrollbar{
+    display: none;
+}
+
+.Profile-Login-menu button{
+    width: 90%;
+    height: 38px;
+    border-radius: 15px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Profile-Login-menu button:hover{
+    background-color: #0069d9;
+}
